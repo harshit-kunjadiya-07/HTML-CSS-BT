@@ -1,0 +1,54 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.625)),
+        url('https://images.unsplash.com/photo-1497366754035-f200968a6e72') no-repeat center center/cover;
+    min-height: 100vh;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+.navbar {
+    background: rgba(117, 117, 117, 0.248);
+}
+
+.navbar-brand,
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #0d6efd !important;
+}
+
+.hero-section {
+    min-height: 600px;
+}
+
+.para {
+    color: bisque;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    font-family: "Almendra", serif;
+}
+
+.profile-frame {
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    padding: 12px;
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.35),
+        0 0 0 4px rgba(255, 255, 255, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.profile-frame img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: none;
+}

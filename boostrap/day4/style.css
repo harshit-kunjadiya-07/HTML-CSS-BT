@@ -1,0 +1,14 @@
+.back{
+    background-color: rgb(0, 221, 255);
+    border-color: rgb(45, 181, 202);
+    width: 100%;
+}
+
+.top{
+    top: 490px;
+    width: 1100px;
+}
+
+.left{
+    padding-left: 90px;
+}

@@ -1,0 +1,44 @@
+* {
+    font-family: cursive;
+}
+
+.active {
+    border-bottom: 2px solid #EA5919;
+}
+
+.items-center button {
+    transition: 0.5s;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    background-color: #c44610;
+}
+
+.icon i:hover{
+    background-color: rgb(0, 0, 255);
+}
+
+.menulist i{
+    display: none;
+}
+
+
+@media screen and (max-width:768px) {
+    .menulist i{
+        display: block;
+    }
+
+    .menulist ul{
+        display: none;
+    }
+
+    .menulist:hover ul{
+        position: absolute;
+        display: block;
+        background-color: gray;
+        padding: 25px;
+        border-radius: 10px;
+    }
+    
+}

@@ -1,0 +1,39 @@
+.para-1 {
+    font-family: "Macondo", cursive;
+}
+
+.back {
+    background-color: rgb(255, 140, 0);
+}
+
+.paragraph {
+    margin-top: -30px;
+}
+
+.para {
+    margin-top: -10px;
+}
+
+.bg-dark-0 {
+    margin-top: -11px;
+}
+
+.bg-dark-1 {
+    margin-top: -5px;
+}
+
+.bg-dark-2 {
+    margin-top: -5px;
+}
+
+.card-title {
+    font-family: "Macondo", cursive;
+    font-weight: 800;
+}
+
+.main {
+    box-shadow: 
+    0 0 4px rgba(255,255,255,0.12),
+    0 0 12px rgba(255,255,255,0.06),
+    0 12px 30px rgba(0,0,0,0.45);
+}
